@@ -9,7 +9,7 @@ html{
     font-family: 'Montserrat', sans-serif;
 
 }
-.container{
+.cont{
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -29,6 +29,7 @@ a{
     background-position: center;
     position: relative;
     z-index: -1;
+  
     
 }
 #home::after{
@@ -39,7 +40,7 @@ a{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: .7;
     z-index: -1;
    
 }
@@ -65,21 +66,92 @@ a{
     color: crimson;
     background-color: transparent;
     border: 2px solid crimson;
-    font-size: 2rem;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
     transition: .3s ease ;
     transition-property: background-color, color;
 }
-#home .ca:hover{
+#home.ca:hover{
     color: white;
     background-color: crimson;
 }
 /*End home section*/
 
+/*navigation bar*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    height: 65px;
+    width: 100%;
+    background-color: rgb(68, 43, 43);
+  
+   
+}
 
+.logo {
+    float: left;
+    margin: 0 50px;
+    height: 30px;
+    color: white;
+    font-size: 20x;
+    text-transform: capitalize;
+    font-weight: bold;
+   
+    
 
+}
+.logo h1{
+    color: white;
+}
+.logo span{
+    color: crimson
+    
+}
+.nav-list{
+    float: right;
+}
+
+.nav-list ul{
+    margin-left: 90px;
+    display: inline;
+    }
+.nav-list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+}
+.nav-list ul a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 15px;
+
+}
+
+.nav-ilist ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    
+    margin: auto;
+    transition: .5s;
+ 
+ }
+ .nav-list a li:hover{
+     background:crimson;
+     border-radius: 2px;
+ }
+ .nav-list ul li:hover::after{
+ width: 100%;
+ }
+ .nav-list a.active li{
+     background:crimson
+     border-radius: 2px;
+ }
+/*end navigation bar*/
 
 
 
