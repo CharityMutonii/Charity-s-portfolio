@@ -83,7 +83,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 20px 100px;
-    height: 65px;
+    height: 50px;
     width: 100%;
     background-color:  rgb(121, 10, 32);
     z-index: -1;
