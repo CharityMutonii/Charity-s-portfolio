@@ -166,11 +166,8 @@ a{
 }
 /*end footer*/
 
-/*About me*/
-#about{
-    background-color: #f5f5f5;
-}
-#about .sec-titl{
+
+.sec-titl{
     font-size: 4rem;
     font-weight: 300;
     color: black;
@@ -180,16 +177,26 @@ a{
     text-align: center;
    
 }
-#about .sec-titl span{
+.sec-titl span{
     color: rgb(121, 10, 32);
 }
+/*About me*/
+#about{
+    background: #f5f5f5;
+}
+
  #about p{
 
     font-size: 14px;
     margin-bottom: 15px;
-    padding: 10px 25px;
-    
-   
+    padding: 5px 120px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
 
 } 
 /*end about me*/
+
+/*project section*/
+
+/*end project section*/
