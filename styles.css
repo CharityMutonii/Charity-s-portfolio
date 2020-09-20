@@ -40,7 +40,7 @@ a{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .7;
+    opacity: .6;
     z-index: -1;
    
 }
@@ -50,22 +50,20 @@ a{
     font-size: 4rem;
     position: relative;
     color: white;
-   
-    
     font-weight: bold;
     
 
 }
 #home h1 span{
-    color: crimson;
+    color:  rgb(121, 10, 32);
 }
 
 #home .ca{
     display: inline-block;
     padding: 10px 30px;
-    color: crimson;
-    background-color: transparent;
-    border: 2px solid crimson;
+    color: white;
+    background-color:  rgb(121, 10, 32);
+    border: 2px solid  rgb(121, 10, 32);
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -74,8 +72,9 @@ a{
     transition-property: background-color, color;
 }
 #home a:hover{
-    color: white;
-    background-color: crimson;
+    color:  rgb(121, 10, 32);
+    background-color: transparent;
+    
 }
 /*End home section*/
 
@@ -87,8 +86,8 @@ a{
     height: 65px;
     width: 100%;
     background-color:  rgb(121, 10, 32);
-    z-index: 1;
-  opacity: .9;
+    z-index: -1;
+
    
 }
 
@@ -161,5 +160,25 @@ a{
     background: rgb(121, 10, 32);
     padding: 20px 0;
 }
-
+.footer a{
+    color: #ccc;
+    
+}
 /*end footer*/
+
+/*About me*/
+#about .sec-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+
+
+}
+#about .sec-title span{
+    color: rgb(121, 10, 32);
+}
+/*end about me*/
