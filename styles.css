@@ -167,7 +167,10 @@ a{
 /*end footer*/
 
 /*About me*/
-#about .sec-title{
+#about{
+    background-color: #f5f5f5;
+}
+#about .sec-titl{
     font-size: 4rem;
     font-weight: 300;
     color: black;
@@ -175,10 +178,18 @@ a{
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
-
-
+   
 }
-#about .sec-title span{
+#about .sec-titl span{
     color: rgb(121, 10, 32);
 }
+ #about p{
+
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+    
+   
+
+} 
 /*end about me*/
