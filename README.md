@@ -1,7 +1,7 @@
 # Myportfolio
 
 ### Authors
-* **Pascaline Irabaruta** 
+* **Charity Mutoni** 
 
 ## Project Description
 My portfolio is a website which contains my education background ,job experience,interest and hobbies and also some of my recent projects
