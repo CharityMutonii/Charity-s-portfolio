@@ -28,7 +28,7 @@ a{
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: -1;
+    z-index: 1;
   
     
 }
@@ -70,8 +70,10 @@ a{
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
+    transition: .3s ease ;
+    transition-property: background-color, color;
 }
-#home.ca:hover{
+#home a:hover{
     color: white;
     background-color: crimson;
 }
@@ -84,8 +86,9 @@ a{
     padding: 20px 100px;
     height: 65px;
     width: 100%;
-    background-color: rgb(51, 33, 33);
-  
+    background-color:  rgb(121, 10, 32);
+    z-index: 1;
+  opacity: .9;
    
 }
 
@@ -105,7 +108,7 @@ a{
     color: white;
 }
 .logo span{
-    color: crimson
+    color: black;
     
 }
 .nav-list{
@@ -139,18 +142,24 @@ a{
  
  }
  .nav-list a li:hover{
-     background:crimson;
+     background: rgb(13, 88, 17);
      border-radius: 2px;
  }
  .nav-list ul li:hover::after{
  width: 100%;
  }
  .nav-list a.active li{
-     background:crimson
+     background: rgb(13, 88,17);
      border-radius: 2px;
  }
 /*end navigation bar*/
 
+/*footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    background: rgb(121, 10, 32);
+    padding: 20px 0;
+}
 
-
-
+/*end footer*/
